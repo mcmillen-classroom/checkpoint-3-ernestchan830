@@ -1,6 +1,6 @@
 package ernestchan.checkpoint_3;
 
-public class TrueFalseQuestion extends Question
+public class TrueFalseQuestionextends Question
 {
     private boolean mTFAnswer;
 
