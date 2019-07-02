@@ -23,6 +23,9 @@ public class Question {
     public boolean checkAnswer(boolean boolResponse) {
         return false;
     }
+    public boolean checkAnswer(int answer) {
+        return false;
+    }
 
     // fill the blank question check
     public boolean checkAnswer(String userAnswer) {
@@ -52,9 +55,7 @@ public class Question {
     }
 
     // stub method
-    public boolean readInputAndCheckAnswer(Scanner input)
-    {
+    public boolean readInputAndCheckAnswer(Scanner input) {
         return false;
     }
-
 }

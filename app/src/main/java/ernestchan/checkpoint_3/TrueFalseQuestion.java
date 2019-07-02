@@ -50,22 +50,22 @@ public class TrueFalseQuestion extends Question
         return mFillAnswers;
     }
 
-//    @Override
-//    public boolean readInputAndCheckAnswer(Scanner input)
-//    {
-//        System.out.print("Enter t/f: ");
-//        String in = input.nextLine();
-//        boolean boolResponse;
-//
-//        if (in.equals("t") || in.equals("true"))
-//        {
-//            boolResponse = true;
-//        }
-//        else
-//        {
-//            boolResponse = false;
-//        }
-//
-//        return checkAnswer(boolResponse);
-//    }
+    @Override
+    public boolean readInputAndCheckAnswer(Scanner input)
+    {
+        System.out.print("Enter t/f: ");
+       String in = input.nextLine();
+        boolean boolResponse;
+
+        if (in.equals("t") || in.equals("true"))
+        {
+           boolResponse = true;
+        }
+        else
+        {
+            boolResponse = false;
+        }
+
+        return checkAnswer(boolResponse);
+   }
 }
